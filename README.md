@@ -18,8 +18,8 @@ This is a simple **To-Do Application** built using **Spring Boot** and **MySQL**
 
 ### 1️⃣ **Clone or Download the Project**
 ```sh
- git clone <your-repository-link>
- cd <your-project-folder>
+ git clone https://github.com/Thenuka09/ToDo-Application.git
+ cd ToDo-Application-master
 ```
 
 ### 2️⃣ **Open the Project in an IDE**
@@ -49,10 +49,8 @@ spring.jpa.hibernate.ddl-auto=update
 Ensure your MySQL server is running before starting the Spring Boot application.
 
 ### 6️⃣ **Run the Application**
-Navigate to the main class (`ToDoApplication.java`) inside `src/main/java` and run the application using your IDE **or** execute the following command in the terminal:
-```sh
- mvn spring-boot:run
-```
+Navigate to the main class (`ToDoApplication.java`) inside `src/main/java` and run the application using your IDE.
+
 
 ### 7️⃣ **Access the Application**
 Once the application starts, you should see the following message in the console:
@@ -68,32 +66,16 @@ Now you can **add, view, delete, and mark tasks as complete** using the applicat
 ---
 
 ## 📦 Dependencies Used
-```xml
-<dependencies>
-    <dependency>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-web</artifactId>
-    </dependency>
-    <dependency>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-data-jpa</artifactId>
-    </dependency>
-    <dependency>
-        <groupId>mysql</groupId>
-        <artifactId>mysql-connector-java</artifactId>
-    </dependency>
-    <dependency>
-        <groupId>org.projectlombok</groupId>
-        <artifactId>lombok</artifactId>
-        <scope>provided</scope>
-    </dependency>
-    <dependency>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-thymeleaf</artifactId>
-    </dependency>
-</dependencies>
-```
 
+- **Spring Boot Starter Web** : Enables building web applications with Spring MVC.
+
+- **Spring Boot Starter Data JPA** : Simplifies database interactions using JPA (Java Persistence API).
+
+- **MySQL Connector** : Allows Java applications to connect to a MySQL database.
+
+- **Lombok** : Reduces boilerplate code by generating getter, setter, and constructor methods automatically.
+
+- **Thymeleaf** : A template engine for rendering dynamic HTML pages in Spring Boot applications.
 ---
 
 ## 📌 Annotations Used
@@ -118,13 +100,19 @@ This project was made possible using:
 
 ---
 
-## 📌 Future Enhancements
-- ✅ Add user authentication for personal task management.
-- ✅ Implement task categories and priorities.
-- ✅ Enhance the UI with better styling and animations.
-- ✅ Deploy the application to a cloud service.
+## 📷 Screenshots
 
----
+### 1) ToDo Application
+![Image](https://github.com/user-attachments/assets/599e0cb5-e383-46f7-ab51-a4a32aac8f55)
 
-### 🎉 Thank you for checking out this project! Feel free to contribute and improve it. 🚀
+### 2) After Adding the task
+![Image](https://github.com/user-attachments/assets/77a4a795-a5e0-48ce-bd19-b2dcbb197e00)
+
+### 3) After completing the task
+![Image](https://github.com/user-attachments/assets/e6211b1c-dab6-4791-ac4c-41b4f757d56c)
+
+### 4) After deleting the task
+![Image](https://github.com/user-attachments/assets/d1dffae0-b7bc-4039-872e-5151dbd298e7)
+
+### 🎉 Thank you for checking out this project!🚀
 
